@@ -1,0 +1,110 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "question": "What is the purpose of an operating system's kernel?",
+        "options": ["Memory management", "File system management", "Process management", "All of the above"],
+        "answer": "All of the above",
+        "explanation": "The kernel is the core component of an operating system that manages system resources, including memory, files, and processes."
+      },
+      {
+        "id": 2,
+        "question": "Which scheduling algorithm provides fairness to each process in a multi-user environment?",
+        "options": ["First-Come, First-Served (FCFS)", "Round Robin", "Shortest Job Next (SJN)", "Multilevel Queue Scheduling"],
+        "answer": "Round Robin",
+        "explanation": "Round Robin scheduling algorithm ensures fairness by allocating each process a fixed time slice in a circular queue."
+      },
+      {
+        "id": 3,
+        "question": "What does the 'fork()' system call do in Unix-like operating systems?",
+        "options": ["Creates a new process", "Terminates the current process", "Suspends the current process", "Resumes a suspended process"],
+        "answer": "Creates a new process",
+        "explanation": "The 'fork()' system call creates a new process, which is a copy of the current process, allowing for parallel execution."
+      },
+      {
+        "id": 4,
+        "question": "Which memory management technique allows processes to be allocated memory wherever it is available?",
+        "options": ["Paging", "Segmentation", "Contiguous Allocation", "Fragmentation"],
+        "answer": "Paging",
+        "explanation": "Paging divides physical memory into fixed-size blocks and allows processes to be allocated memory non-contiguously, reducing external fragmentation."
+      },
+      {
+        "id": 5,
+        "question": "What is the primary purpose of the 'swap space' in virtual memory management?",
+        "options": ["Storing rarely used data", "Facilitating inter-process communication", "Holding parts of the program not currently in use", "Buffering data for disk I/O operations"],
+        "answer": "Holding parts of the program not currently in use",
+        "explanation": "Swap space is used to temporarily store parts of a program that are not currently in use, allowing the system to free up physical memory for other processes."
+      },
+      {
+        "id": 6,
+        "question": "Which file system is commonly used in Unix-like operating systems?",
+        "options": ["NTFS", "FAT32", "ext4", "HFS+"],
+        "answer": "ext4",
+        "explanation": "ext4 is the default file system in many Linux distributions, offering features like journaling and support for large file sizes and volumes."
+      },
+      {
+        "id": 7,
+        "question": "What is the purpose of the 'inode' in Unix file systems?",
+        "options": ["Stores file content", "Maps file names to disk blocks", "Maintains file permissions and metadata", "Manages disk partitions"],
+        "answer": "Maintains file permissions and metadata",
+        "explanation": "An inode (index node) contains metadata about a file, including its location, permissions, timestamps, and ownership."
+      },
+      {
+        "id": 8,
+        "question": "Which synchronization primitive is used to protect critical sections in multi-threaded programs?",
+        "options": ["Mutex", "Semaphore", "Barrier", "Spinlock"],
+        "answer": "Mutex",
+        "explanation": "Mutex (mutual exclusion) is a synchronization primitive used to ensure that only one thread can access a critical section of code at a time."
+      },
+      {
+        "id": 9,
+        "question": "What does the 'deadlock' condition refer to in operating systems?",
+        "options": ["A process holds a resource while waiting for another resource held by another process", "Two processes cannot proceed because each is waiting for the other to release a resource", "A process accesses a resource after it has been released by another process", "Two processes both release their resources simultaneously"],
+        "answer": "Two processes cannot proceed because each is waiting for the other to release a resource",
+        "explanation": "Deadlock occurs when two or more processes are unable to proceed because each is waiting for a resource held by the other, resulting in a cyclic dependency."
+      },
+      {
+        "id": 10,
+        "question": "Which scheduling algorithm minimizes the average waiting time for processes?",
+        "options": ["Shortest Remaining Time First (SRTF)", "First-Come, First-Served (FCFS)", "Shortest Job Next (SJN)", "Round Robin"],
+        "answer": "Shortest Remaining Time First (SRTF)",
+        "explanation": "Shortest Remaining Time First (SRTF) scheduling algorithm selects the process with the shortest remaining burst time, minimizing waiting time."
+      },
+      {
+        "id": 11,
+        "question": "What is the purpose of the 'superblock' in a file system?",
+        "options": ["Stores file data", "Maps logical block addresses to physical disk blocks", "Maintains metadata about the file system", "Holds information about the directory structure"],
+        "answer": "Maintains metadata about the file system",
+        "explanation": "The superblock contains metadata about the file system, including the total number of blocks, block size, and free block information."
+      },
+      {
+        "id": 12,
+        "question": "Which memory allocation algorithm requires the entire process to be loaded into contiguous memory?",
+        "options": ["Paging", "Segmentation", "Dynamic Partitioning", "Contiguous Allocation"],
+        "answer": "Contiguous Allocation",
+        "explanation": "Contiguous Allocation allocates memory in contiguous blocks, requiring the entire process to be loaded into consecutive memory locations."
+      },
+      {
+        "id": 13,
+        "question": "What is the primary purpose of the 'init' process in Unix-like operating systems?",
+        "options": ["Initializes the hardware components", "Handles system interrupts", "Spawns user login sessions", "Sets up the user environment and starts other system processes"],
+        "answer": "Sets up the user environment and starts other system processes",
+        "explanation": "The 'init' process is the first process started during system boot and is responsible for initializing the user environment and launching other system processes."
+      },
+      {
+        "id": 14,
+        "question": "Which memory allocation algorithm allocates memory partitions of varying sizes to processes?",
+        "options": ["Paging", "Segmentation", "Dynamic Partitioning", "Contiguous Allocation"],
+        "answer": "Dynamic Partitioning",
+        "explanation": "Dynamic Partitioning allocates memory partitions of varying sizes to processes, reducing internal fragmentation compared to fixed-size partitioning."
+      },
+      {
+        "id": 15,
+        "question": "What is the purpose of the 'page table' in virtual memory management?",
+        "options": ["Maps logical addresses to physical addresses", "Stores page replacement algorithms", "Manages page fault exceptions", "Tracks page access frequency"],
+        "answer": "Maps logical addresses to physical addresses",
+        "explanation": "The page table is a data structure used by the operating system to map logical addresses generated by programs to their corresponding physical addresses in main memory."
+      }
+    ]
+  }
+  

@@ -1,0 +1,18 @@
+.animated {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    animation: gradientAnimation 1s infinite alternate;
+  }
+
+  @keyframes gradientAnimation {
+    0% {
+      background-color: #ff670f;
+    }
+    50% {
+      background-color: #ffffff;
+    }
+    100% {
+      background-color: #0eea57;
+    }
+  }
